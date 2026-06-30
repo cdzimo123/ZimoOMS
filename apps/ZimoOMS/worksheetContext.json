@@ -1,0 +1,3494 @@
+{
+ "经销商": {
+  "worksheetId": "6a43dd4eb53555e6bdc28ca1",
+  "fields": [
+   {
+    "name": "经销商名称",
+    "alias": "biz_d_name",
+    "id": "6a43dd4fc97c2c5da223a670",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "经销商编号",
+    "alias": "biz_d_no",
+    "id": "6a43dd4fc97c2c5da223a671",
+    "type": "AutoNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "联系人",
+    "alias": "biz_d_contact",
+    "id": "6a43dd4fc97c2c5da223a672",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "联系电话",
+    "alias": "biz_d_phone",
+    "id": "6a43dd4fc97c2c5da223a673",
+    "type": "PhoneNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "电子邮箱",
+    "alias": "biz_d_email",
+    "id": "6a43dd4fc97c2c5da223a674",
+    "type": "Email",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "所在区域",
+    "alias": "biz_d_region",
+    "id": "6a43dd4fc97c2c5da223a675",
+    "type": "Region",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "详细地址",
+    "alias": "biz_d_addr",
+    "id": "6a43dd4fc97c2c5da223a676",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "经销商等级",
+    "alias": "biz_d_level",
+    "id": "6a43dd4fc97c2c5da223a677",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "战略",
+      "key": "e28d21b8-0b0c-4cbb-985a-97f453f9d8de"
+     },
+     {
+      "value": "核心",
+      "key": "ff4d9324-e4b4-4b78-bc38-2b0160444576"
+     },
+     {
+      "value": "普通",
+      "key": "561455c8-8806-4469-8359-097f710cee6f"
+     },
+     {
+      "value": "潜在",
+      "key": "d4330c76-af71-43bb-ba48-267df812dd64"
+     }
+    ]
+   },
+   {
+    "name": "合作状态",
+    "alias": "biz_d_status",
+    "id": "6a43dd4fc97c2c5da223a678",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "合作中",
+      "key": "9a3734cd-e5ff-4744-a091-fdda4b291e99"
+     },
+     {
+      "value": "暂停",
+      "key": "f73a52e7-e0e4-45e9-a540-e68e4372b420"
+     },
+     {
+      "value": "终止",
+      "key": "10af6c18-7af5-4ae8-b30a-9a6a0cbe2fdc"
+     }
+    ]
+   },
+   {
+    "name": "信用额度",
+    "alias": "biz_d_credit",
+    "id": "6a43dd4fc97c2c5da223a679",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "已用额度",
+    "alias": "biz_d_usedcredit",
+    "id": "6a43dd4fc97c2c5da223a67a",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "累计订单金额",
+    "alias": "biz_d_totorder",
+    "id": "6a43dd4fc97c2c5da223a67b",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "累计回款金额",
+    "alias": "biz_d_totpaid",
+    "id": "6a43dd4fc97c2c5da223a67c",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "开户银行",
+    "alias": "biz_d_bank",
+    "id": "6a43dd4fc97c2c5da223a67d",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "银行账号",
+    "alias": "biz_d_bankno",
+    "id": "6a43dd4fc97c2c5da223a67e",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "营业执照",
+    "alias": "biz_d_license",
+    "id": "6a43dd4fc97c2c5da223a67f",
+    "type": "Attachment",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "备注",
+    "alias": "biz_d_remark",
+    "id": "6a43dd4fc97c2c5da223a680",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "订单",
+    "alias": "",
+    "id": "6a43dd5635469a74bed4137e",
+    "type": "Relation",
+    "dataSource": "6a43dd56bb587f9eb97b67ed",
+    "options": []
+   },
+   {
+    "name": "售后工单",
+    "alias": "",
+    "id": "6a43dd5fdd094e0b9289fbd5",
+    "type": "Relation",
+    "dataSource": "6a43dd5ed928e7cf1bce815a",
+    "options": []
+   },
+   {
+    "name": "记录ID",
+    "alias": "rowId",
+    "id": "rowid",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "拥有者",
+    "alias": "_owner",
+    "id": "ownerid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建人",
+    "alias": "_createdBy",
+    "id": "caid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建时间",
+    "alias": "_createdAt",
+    "id": "ctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改时间",
+    "alias": "_updatedAt",
+    "id": "utime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改人",
+    "alias": "_updatedBy",
+    "id": "uaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程名称",
+    "alias": "_processName",
+    "id": "wfname",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点负责人",
+    "alias": "_nodeAssignees",
+    "id": "wfcuaids",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起人",
+    "alias": "_initiatedBy",
+    "id": "wfcaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起时间",
+    "alias": "_initiatedAt",
+    "id": "wfctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点开始时间",
+    "alias": "_nodeStartedAt",
+    "id": "wfrtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "审批完成时间",
+    "alias": "_approvalCompletedAt",
+    "id": "wfcotime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "截止时间",
+    "alias": "_dueAt",
+    "id": "wfdtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "剩余时间",
+    "alias": "_remainingTime",
+    "id": "wfftime",
+    "type": "DateFormula",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程状态",
+    "alias": "_processStatus",
+    "id": "wfstatus",
+    "type": "Dropdown",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "通过",
+      "key": "pass"
+     },
+     {
+      "value": "否决",
+      "key": "refuse"
+     },
+     {
+      "value": "中止",
+      "key": "abort"
+     },
+     {
+      "value": "进行中",
+      "key": "other"
+     }
+    ]
+   }
+  ]
+ },
+ "产品": {
+  "worksheetId": "6a43dd517f7f1704c4032bc9",
+  "fields": [
+   {
+    "name": "产品名称",
+    "alias": "biz_p_name",
+    "id": "6a43dd517b253242fdbc6185",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "产品编码",
+    "alias": "biz_p_no",
+    "id": "6a43dd517b253242fdbc6186",
+    "type": "AutoNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "产品分类",
+    "alias": "biz_p_cat",
+    "id": "6a43dd517b253242fdbc6187",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "橱柜",
+      "key": "224582af-0f78-46f1-a739-137f85c42920"
+     },
+     {
+      "value": "衣柜",
+      "key": "4112754d-6a21-489c-be74-c885b1e84b25"
+     },
+     {
+      "value": "木门",
+      "key": "914f6586-4710-445a-ae8d-8d89f991e0de"
+     },
+     {
+      "value": "门窗",
+      "key": "172de9f9-8dab-42cf-a570-e1d6785e29a6"
+     },
+     {
+      "value": "配件",
+      "key": "523a79ee-c7e5-4881-9035-399d8161f5f2"
+     },
+     {
+      "value": "其他",
+      "key": "1fd5d098-501f-4504-a868-9744764967ab"
+     }
+    ]
+   },
+   {
+    "name": "品牌",
+    "alias": "biz_p_brand",
+    "id": "6a43dd517b253242fdbc6188",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "规格型号",
+    "alias": "biz_p_spec",
+    "id": "6a43dd517b253242fdbc6189",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "计量单位",
+    "alias": "biz_p_unit",
+    "id": "6a43dd517b253242fdbc618a",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "套",
+      "key": "0b0b16e8-2105-4e70-a21d-6e0eca8b6008"
+     },
+     {
+      "value": "件",
+      "key": "6fd139f1-5f56-4f06-bcfb-e45235ee1fe8"
+     },
+     {
+      "value": "平方米",
+      "key": "9797ec89-67a4-4d08-b4aa-fade94d0042f"
+     },
+     {
+      "value": "米",
+      "key": "70e2c34e-3232-4f66-af4b-7f63e185c9ee"
+     },
+     {
+      "value": "个",
+      "key": "fce0aad5-4f07-4c35-980f-bfded9c60439"
+     }
+    ]
+   },
+   {
+    "name": "销售单价",
+    "alias": "biz_p_price",
+    "id": "6a43dd517b253242fdbc618b",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "成本单价",
+    "alias": "biz_p_cost",
+    "id": "6a43dd517b253242fdbc618c",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "标准交期天数",
+    "alias": "biz_p_lead",
+    "id": "6a43dd517b253242fdbc618d",
+    "type": "Number",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "是否需要测量",
+    "alias": "biz_p_needm",
+    "id": "6a43dd517b253242fdbc618e",
+    "type": "Checkbox",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "是否需要安装",
+    "alias": "biz_p_needi",
+    "id": "6a43dd517b253242fdbc618f",
+    "type": "Checkbox",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "上架状态",
+    "alias": "biz_p_status",
+    "id": "6a43dd517b253242fdbc6190",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "在售",
+      "key": "1a1386ff-ce45-4c51-9b2f-8586b1d92ce8"
+     },
+     {
+      "value": "停售",
+      "key": "87ffae9b-e056-4836-b05f-8e3cd1c72ebd"
+     }
+    ]
+   },
+   {
+    "name": "产品图片",
+    "alias": "biz_p_img",
+    "id": "6a43dd517b253242fdbc6191",
+    "type": "Attachment",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "产品简介",
+    "alias": "biz_p_desc",
+    "id": "6a43dd517b253242fdbc6192",
+    "type": "RichText",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "备注",
+    "alias": "biz_p_remark",
+    "id": "6a43dd517b253242fdbc6193",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "订单明细",
+    "alias": "",
+    "id": "6a43dd596c3559870fe39b60",
+    "type": "Relation",
+    "dataSource": "6a43dd58d66eef6f23fa1157",
+    "options": []
+   },
+   {
+    "name": "记录ID",
+    "alias": "rowId",
+    "id": "rowid",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "拥有者",
+    "alias": "_owner",
+    "id": "ownerid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建人",
+    "alias": "_createdBy",
+    "id": "caid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建时间",
+    "alias": "_createdAt",
+    "id": "ctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改时间",
+    "alias": "_updatedAt",
+    "id": "utime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改人",
+    "alias": "_updatedBy",
+    "id": "uaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程名称",
+    "alias": "_processName",
+    "id": "wfname",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点负责人",
+    "alias": "_nodeAssignees",
+    "id": "wfcuaids",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起人",
+    "alias": "_initiatedBy",
+    "id": "wfcaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起时间",
+    "alias": "_initiatedAt",
+    "id": "wfctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点开始时间",
+    "alias": "_nodeStartedAt",
+    "id": "wfrtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "审批完成时间",
+    "alias": "_approvalCompletedAt",
+    "id": "wfcotime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "截止时间",
+    "alias": "_dueAt",
+    "id": "wfdtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "剩余时间",
+    "alias": "_remainingTime",
+    "id": "wfftime",
+    "type": "DateFormula",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程状态",
+    "alias": "_processStatus",
+    "id": "wfstatus",
+    "type": "Dropdown",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "通过",
+      "key": "pass"
+     },
+     {
+      "value": "否决",
+      "key": "refuse"
+     },
+     {
+      "value": "中止",
+      "key": "abort"
+     },
+     {
+      "value": "进行中",
+      "key": "other"
+     }
+    ]
+   }
+  ]
+ },
+ "工厂": {
+  "worksheetId": "6a43dd53562676e72e2a9fb3",
+  "fields": [
+   {
+    "name": "工厂名称",
+    "alias": "biz_fac_name",
+    "id": "6a43dd5435469a74bed41339",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "工厂编号",
+    "alias": "biz_fac_no",
+    "id": "6a43dd5435469a74bed4133a",
+    "type": "AutoNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "工厂类型",
+    "alias": "biz_fac_type",
+    "id": "6a43dd5435469a74bed4133b",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "自有工厂",
+      "key": "fbe23a5f-9fae-463a-8088-8f3a66386931"
+     },
+     {
+      "value": "外协工厂",
+      "key": "941b6414-0984-4d7e-9164-d6f676ac06e7"
+     }
+    ]
+   },
+   {
+    "name": "对接人",
+    "alias": "biz_fac_contact",
+    "id": "6a43dd5435469a74bed4133c",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "联系电话",
+    "alias": "biz_fac_phone",
+    "id": "6a43dd5435469a74bed4133d",
+    "type": "PhoneNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "所在区域",
+    "alias": "biz_fac_region",
+    "id": "6a43dd5435469a74bed4133e",
+    "type": "Region",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "详细地址",
+    "alias": "biz_fac_addr",
+    "id": "6a43dd5435469a74bed4133f",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "月产能",
+    "alias": "biz_fac_cap",
+    "id": "6a43dd5435469a74bed41340",
+    "type": "Number",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "主营品类",
+    "alias": "biz_fac_cats",
+    "id": "6a43dd5435469a74bed41341",
+    "type": "MultipleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "橱柜",
+      "key": "a3906b19-110d-4946-ae38-e754291ff534"
+     },
+     {
+      "value": "衣柜",
+      "key": "9a434e88-3504-4d1d-970e-d4c33cf849ba"
+     },
+     {
+      "value": "木门",
+      "key": "819e42fe-ee1a-485f-8a71-8040b7d4d2cd"
+     },
+     {
+      "value": "门窗",
+      "key": "03c0267c-dc6b-4994-a1c3-994e3101795c"
+     },
+     {
+      "value": "配件",
+      "key": "32756798-71c7-4366-8f0e-629e6f4e31a6"
+     }
+    ]
+   },
+   {
+    "name": "准时交付率",
+    "alias": "biz_fac_otd",
+    "id": "6a43dd5435469a74bed41342",
+    "type": "Number",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "质量评分",
+    "alias": "biz_fac_rate",
+    "id": "6a43dd5435469a74bed41343",
+    "type": "Rating",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "合作状态",
+    "alias": "biz_fac_status",
+    "id": "6a43dd5435469a74bed41344",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "合作中",
+      "key": "cc1ade73-4d71-4054-963f-d462f4aece14"
+     },
+     {
+      "value": "暂停",
+      "key": "5ee2741d-8940-41b7-b644-b694e75cecc0"
+     },
+     {
+      "value": "终止",
+      "key": "8bf5f995-26b4-4b0e-a11e-bd2917f94c0c"
+     }
+    ]
+   },
+   {
+    "name": "合作开始日期",
+    "alias": "biz_fac_since",
+    "id": "6a43dd5435469a74bed41345",
+    "type": "Date",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "备注",
+    "alias": "biz_fac_remark",
+    "id": "6a43dd5435469a74bed41346",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "生产单",
+    "alias": "",
+    "id": "6a43dd5cfa7525f9b4e9c8f4",
+    "type": "Relation",
+    "dataSource": "6a43dd5c7f7f1704c4032c0f",
+    "options": []
+   },
+   {
+    "name": "记录ID",
+    "alias": "rowId",
+    "id": "rowid",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "拥有者",
+    "alias": "_owner",
+    "id": "ownerid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建人",
+    "alias": "_createdBy",
+    "id": "caid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建时间",
+    "alias": "_createdAt",
+    "id": "ctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改时间",
+    "alias": "_updatedAt",
+    "id": "utime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改人",
+    "alias": "_updatedBy",
+    "id": "uaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程名称",
+    "alias": "_processName",
+    "id": "wfname",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点负责人",
+    "alias": "_nodeAssignees",
+    "id": "wfcuaids",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起人",
+    "alias": "_initiatedBy",
+    "id": "wfcaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起时间",
+    "alias": "_initiatedAt",
+    "id": "wfctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点开始时间",
+    "alias": "_nodeStartedAt",
+    "id": "wfrtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "审批完成时间",
+    "alias": "_approvalCompletedAt",
+    "id": "wfcotime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "截止时间",
+    "alias": "_dueAt",
+    "id": "wfdtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "剩余时间",
+    "alias": "_remainingTime",
+    "id": "wfftime",
+    "type": "DateFormula",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程状态",
+    "alias": "_processStatus",
+    "id": "wfstatus",
+    "type": "Dropdown",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "通过",
+      "key": "pass"
+     },
+     {
+      "value": "否决",
+      "key": "refuse"
+     },
+     {
+      "value": "中止",
+      "key": "abort"
+     },
+     {
+      "value": "进行中",
+      "key": "other"
+     }
+    ]
+   }
+  ]
+ },
+ "订单": {
+  "worksheetId": "6a43dd56bb587f9eb97b67ed",
+  "fields": [
+   {
+    "name": "订单编号",
+    "alias": "biz_o_no",
+    "id": "6a43dd5635469a74bed4137c",
+    "type": "AutoNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "关联经销商",
+    "alias": "biz_rel_74059",
+    "id": "6a43dd5635469a74bed4137d",
+    "type": "Relation",
+    "dataSource": "6a43dd4eb53555e6bdc28ca1",
+    "options": []
+   },
+   {
+    "name": "下单日期",
+    "alias": "biz_o_date",
+    "id": "6a43dd5635469a74bed4137f",
+    "type": "Date",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "期望交付日期",
+    "alias": "biz_o_eta",
+    "id": "6a43dd5635469a74bed41380",
+    "type": "Date",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "订单状态",
+    "alias": "biz_o_status",
+    "id": "6a43dd5635469a74bed41381",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "待审核",
+      "key": "73bb6ebb-7736-43aa-8384-b9a06b1957e4"
+     },
+     {
+      "value": "已驳回",
+      "key": "d0fe17a4-f1fc-4d6f-be9b-0b2c1f98d31f"
+     },
+     {
+      "value": "待测量",
+      "key": "81beca0e-6139-4570-83a0-424541e33d3d"
+     },
+     {
+      "value": "待生产",
+      "key": "0ffc14f3-56d9-4a77-bb7d-f7e63aa06f41"
+     },
+     {
+      "value": "待发货",
+      "key": "2fd5316c-d644-485c-a0f3-db574ea3840c"
+     },
+     {
+      "value": "待安装",
+      "key": "5427042b-ebe0-4488-a44c-1ebfd3c6b972"
+     },
+     {
+      "value": "已完成",
+      "key": "8cba4ec6-5792-4d05-9bf9-318c6b819416"
+     },
+     {
+      "value": "已取消",
+      "key": "8a64ee11-50e1-4eff-b93a-ee90aeae8090"
+     }
+    ]
+   },
+   {
+    "name": "收货联系人",
+    "alias": "biz_o_recv",
+    "id": "6a43dd5635469a74bed41382",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "收货电话",
+    "alias": "biz_o_recvphone",
+    "id": "6a43dd5635469a74bed41383",
+    "type": "PhoneNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "收货地区",
+    "alias": "biz_o_recvregion",
+    "id": "6a43dd5635469a74bed41384",
+    "type": "Region",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "收货地址",
+    "alias": "biz_o_recvaddr",
+    "id": "6a43dd5635469a74bed41385",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "是否需要测量",
+    "alias": "biz_o_needm",
+    "id": "6a43dd5635469a74bed41386",
+    "type": "Checkbox",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "是否需要安装",
+    "alias": "biz_o_needi",
+    "id": "6a43dd5635469a74bed41387",
+    "type": "Checkbox",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "订单总金额",
+    "alias": "biz_o_amount",
+    "id": "6a43dd5635469a74bed41388",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "应收总额",
+    "alias": "biz_o_recv_total",
+    "id": "6a43dd5635469a74bed41389",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "已收金额",
+    "alias": "biz_o_paid",
+    "id": "6a43dd5635469a74bed4138a",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "未收金额",
+    "alias": "biz_o_unpaid",
+    "id": "6a43dd5635469a74bed4138b",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "收款状态",
+    "alias": "biz_o_paystatus",
+    "id": "6a43dd5635469a74bed4138c",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "未收款",
+      "key": "bf15028a-a490-4f16-b91b-8f76c93dcfe6"
+     },
+     {
+      "value": "部分收款",
+      "key": "90d27ab4-44fc-4653-9032-f5e805d9ca6d"
+     },
+     {
+      "value": "已结清",
+      "key": "5f35f8e9-39d0-4652-aabb-e0540e76e10e"
+     },
+     {
+      "value": "已逾期",
+      "key": "04c60cfc-a949-4f18-a0f8-6aec800775f9"
+     }
+    ]
+   },
+   {
+    "name": "订单来源",
+    "alias": "biz_o_source",
+    "id": "6a43dd5635469a74bed4138d",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "经销商门户",
+      "key": "747620d9-ecbd-4eb7-8165-f9c4989be7dd"
+     },
+     {
+      "value": "电话",
+      "key": "2ade4a1e-9075-4c8e-9d6b-9c4f0190f420"
+     },
+     {
+      "value": "线下",
+      "key": "e3f0048b-7295-4d0c-83d0-22c57898a753"
+     },
+     {
+      "value": "其他",
+      "key": "0fac1242-6bb7-4a6d-9078-0e34da9871c7"
+     }
+    ]
+   },
+   {
+    "name": "销售负责人",
+    "alias": "biz_o_owner",
+    "id": "6a43dd5635469a74bed4138e",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "备注",
+    "alias": "biz_o_remark",
+    "id": "6a43dd5635469a74bed4138f",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "附件",
+    "alias": "biz_o_attach",
+    "id": "6a43dd5635469a74bed41390",
+    "type": "Attachment",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "订单明细",
+    "alias": "",
+    "id": "6a43dd596c3559870fe39b5e",
+    "type": "Relation",
+    "dataSource": "6a43dd58d66eef6f23fa1157",
+    "options": []
+   },
+   {
+    "name": "测量单",
+    "alias": "",
+    "id": "6a43dd5bd66eef6f23fa1172",
+    "type": "Relation",
+    "dataSource": "6a43dd5ba57efbd5b2c54abf",
+    "options": []
+   },
+   {
+    "name": "生产单",
+    "alias": "",
+    "id": "6a43dd5cfa7525f9b4e9c8f2",
+    "type": "Relation",
+    "dataSource": "6a43dd5c7f7f1704c4032c0f",
+    "options": []
+   },
+   {
+    "name": "物流单",
+    "alias": "",
+    "id": "6a43dd5dc97c2c5da223a701",
+    "type": "Relation",
+    "dataSource": "6a43dd5d7968b2b17ba13c66",
+    "options": []
+   },
+   {
+    "name": "安装单",
+    "alias": "",
+    "id": "6a43dd5e7b253242fdbc6206",
+    "type": "Relation",
+    "dataSource": "6a43dd5eb53555e6bdc28cf0",
+    "options": []
+   },
+   {
+    "name": "售后工单",
+    "alias": "",
+    "id": "6a43dd5fdd094e0b9289fbd3",
+    "type": "Relation",
+    "dataSource": "6a43dd5ed928e7cf1bce815a",
+    "options": []
+   },
+   {
+    "name": "收款计划",
+    "alias": "",
+    "id": "6a43dd5fc97c2c5da223a742",
+    "type": "Relation",
+    "dataSource": "6a43dd5f7f7f1704c4032c2e",
+    "options": []
+   },
+   {
+    "name": "收款记录",
+    "alias": "",
+    "id": "6a43dd62fa7525f9b4e9c93f",
+    "type": "Relation",
+    "dataSource": "6a43dd62dd094e0b9289fc15",
+    "options": []
+   },
+   {
+    "name": "记录ID",
+    "alias": "rowId",
+    "id": "rowid",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "拥有者",
+    "alias": "_owner",
+    "id": "ownerid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建人",
+    "alias": "_createdBy",
+    "id": "caid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建时间",
+    "alias": "_createdAt",
+    "id": "ctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改时间",
+    "alias": "_updatedAt",
+    "id": "utime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改人",
+    "alias": "_updatedBy",
+    "id": "uaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程名称",
+    "alias": "_processName",
+    "id": "wfname",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点负责人",
+    "alias": "_nodeAssignees",
+    "id": "wfcuaids",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起人",
+    "alias": "_initiatedBy",
+    "id": "wfcaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起时间",
+    "alias": "_initiatedAt",
+    "id": "wfctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点开始时间",
+    "alias": "_nodeStartedAt",
+    "id": "wfrtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "审批完成时间",
+    "alias": "_approvalCompletedAt",
+    "id": "wfcotime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "截止时间",
+    "alias": "_dueAt",
+    "id": "wfdtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "剩余时间",
+    "alias": "_remainingTime",
+    "id": "wfftime",
+    "type": "DateFormula",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程状态",
+    "alias": "_processStatus",
+    "id": "wfstatus",
+    "type": "Dropdown",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "通过",
+      "key": "pass"
+     },
+     {
+      "value": "否决",
+      "key": "refuse"
+     },
+     {
+      "value": "中止",
+      "key": "abort"
+     },
+     {
+      "value": "进行中",
+      "key": "other"
+     }
+    ]
+   }
+  ]
+ },
+ "订单明细": {
+  "worksheetId": "6a43dd58d66eef6f23fa1157",
+  "fields": [
+   {
+    "name": "明细编号",
+    "alias": "biz_oi_no",
+    "id": "6a43dd596c3559870fe39b5c",
+    "type": "AutoNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "关联订单",
+    "alias": "biz_rel_40023",
+    "id": "6a43dd596c3559870fe39b5d",
+    "type": "Relation",
+    "dataSource": "6a43dd56bb587f9eb97b67ed",
+    "options": []
+   },
+   {
+    "name": "关联产品",
+    "alias": "biz_rel_12031",
+    "id": "6a43dd596c3559870fe39b5f",
+    "type": "Relation",
+    "dataSource": "6a43dd517f7f1704c4032bc9",
+    "options": []
+   },
+   {
+    "name": "规格说明",
+    "alias": "biz_oi_spec",
+    "id": "6a43dd596c3559870fe39b61",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "数量",
+    "alias": "biz_oi_qty",
+    "id": "6a43dd596c3559870fe39b62",
+    "type": "Number",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "单价",
+    "alias": "biz_oi_price",
+    "id": "6a43dd596c3559870fe39b63",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "小计",
+    "alias": "biz_oi_subtotal",
+    "id": "6a43dd596c3559870fe39b64",
+    "type": "Formula",
+    "dataSource": "$6a43dd596c3559870fe39b62$ * $6a43dd596c3559870fe39b63$",
+    "options": []
+   },
+   {
+    "name": "是否定制",
+    "alias": "biz_oi_custom",
+    "id": "6a43dd596c3559870fe39b65",
+    "type": "Checkbox",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "明细状态",
+    "alias": "biz_oi_status",
+    "id": "6a43dd596c3559870fe39b66",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "待生产",
+      "key": "8deae760-9be2-428c-b6ae-5018e1d86e92"
+     },
+     {
+      "value": "生产中",
+      "key": "5794d651-bf69-4b50-8b4c-7552aff02287"
+     },
+     {
+      "value": "已完成",
+      "key": "4003ce49-4c61-4ade-b5c5-b0944be00cc5"
+     }
+    ]
+   },
+   {
+    "name": "备注",
+    "alias": "biz_oi_remark",
+    "id": "6a43dd596c3559870fe39b67",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "记录ID",
+    "alias": "rowId",
+    "id": "rowid",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "拥有者",
+    "alias": "_owner",
+    "id": "ownerid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建人",
+    "alias": "_createdBy",
+    "id": "caid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建时间",
+    "alias": "_createdAt",
+    "id": "ctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改时间",
+    "alias": "_updatedAt",
+    "id": "utime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改人",
+    "alias": "_updatedBy",
+    "id": "uaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程名称",
+    "alias": "_processName",
+    "id": "wfname",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点负责人",
+    "alias": "_nodeAssignees",
+    "id": "wfcuaids",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起人",
+    "alias": "_initiatedBy",
+    "id": "wfcaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起时间",
+    "alias": "_initiatedAt",
+    "id": "wfctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点开始时间",
+    "alias": "_nodeStartedAt",
+    "id": "wfrtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "审批完成时间",
+    "alias": "_approvalCompletedAt",
+    "id": "wfcotime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "截止时间",
+    "alias": "_dueAt",
+    "id": "wfdtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "剩余时间",
+    "alias": "_remainingTime",
+    "id": "wfftime",
+    "type": "DateFormula",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程状态",
+    "alias": "_processStatus",
+    "id": "wfstatus",
+    "type": "Dropdown",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "通过",
+      "key": "pass"
+     },
+     {
+      "value": "否决",
+      "key": "refuse"
+     },
+     {
+      "value": "中止",
+      "key": "abort"
+     },
+     {
+      "value": "进行中",
+      "key": "other"
+     }
+    ]
+   }
+  ]
+ },
+ "测量单": {
+  "worksheetId": "6a43dd5ba57efbd5b2c54abf",
+  "fields": [
+   {
+    "name": "测量单号",
+    "alias": "biz_m_no",
+    "id": "6a43dd5bd66eef6f23fa1170",
+    "type": "AutoNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "关联订单",
+    "alias": "biz_rel_40023",
+    "id": "6a43dd5bd66eef6f23fa1171",
+    "type": "Relation",
+    "dataSource": "6a43dd56bb587f9eb97b67ed",
+    "options": []
+   },
+   {
+    "name": "测量状态",
+    "alias": "biz_m_status",
+    "id": "6a43dd5bd66eef6f23fa1173",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "待预约",
+      "key": "80c8c81d-0e2f-4ba8-9f3b-0e13432f1882"
+     },
+     {
+      "value": "已预约",
+      "key": "11531acc-bc56-4a1b-b18b-e75b97a8ffc0"
+     },
+     {
+      "value": "已测量",
+      "key": "d0e86155-9fdf-4e2a-a85e-89f9ca30fb39"
+     },
+     {
+      "value": "已取消",
+      "key": "82fca0ed-24e3-4b75-9e94-1093b74b5976"
+     }
+    ]
+   },
+   {
+    "name": "预约测量时间",
+    "alias": "biz_m_booktime",
+    "id": "6a43dd5bd66eef6f23fa1174",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "实际测量时间",
+    "alias": "biz_m_realtime",
+    "id": "6a43dd5bd66eef6f23fa1175",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "测量员",
+    "alias": "biz_m_worker",
+    "id": "6a43dd5bd66eef6f23fa1176",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "测量地址",
+    "alias": "biz_m_addr",
+    "id": "6a43dd5bd66eef6f23fa1177",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "现场尺寸",
+    "alias": "biz_m_size",
+    "id": "6a43dd5bd66eef6f23fa1178",
+    "type": "RichText",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "是否需复尺",
+    "alias": "biz_m_recheck",
+    "id": "6a43dd5bd66eef6f23fa1179",
+    "type": "Checkbox",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "测量图纸",
+    "alias": "biz_m_draw",
+    "id": "6a43dd5bd66eef6f23fa117a",
+    "type": "Attachment",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "备注",
+    "alias": "biz_m_remark",
+    "id": "6a43dd5bd66eef6f23fa117b",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "记录ID",
+    "alias": "rowId",
+    "id": "rowid",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "拥有者",
+    "alias": "_owner",
+    "id": "ownerid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建人",
+    "alias": "_createdBy",
+    "id": "caid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建时间",
+    "alias": "_createdAt",
+    "id": "ctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改时间",
+    "alias": "_updatedAt",
+    "id": "utime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改人",
+    "alias": "_updatedBy",
+    "id": "uaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程名称",
+    "alias": "_processName",
+    "id": "wfname",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点负责人",
+    "alias": "_nodeAssignees",
+    "id": "wfcuaids",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起人",
+    "alias": "_initiatedBy",
+    "id": "wfcaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起时间",
+    "alias": "_initiatedAt",
+    "id": "wfctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点开始时间",
+    "alias": "_nodeStartedAt",
+    "id": "wfrtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "审批完成时间",
+    "alias": "_approvalCompletedAt",
+    "id": "wfcotime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "截止时间",
+    "alias": "_dueAt",
+    "id": "wfdtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "剩余时间",
+    "alias": "_remainingTime",
+    "id": "wfftime",
+    "type": "DateFormula",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程状态",
+    "alias": "_processStatus",
+    "id": "wfstatus",
+    "type": "Dropdown",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "通过",
+      "key": "pass"
+     },
+     {
+      "value": "否决",
+      "key": "refuse"
+     },
+     {
+      "value": "中止",
+      "key": "abort"
+     },
+     {
+      "value": "进行中",
+      "key": "other"
+     }
+    ]
+   }
+  ]
+ },
+ "生产单": {
+  "worksheetId": "6a43dd5c7f7f1704c4032c0f",
+  "fields": [
+   {
+    "name": "生产单号",
+    "alias": "biz_pr_no",
+    "id": "6a43dd5cfa7525f9b4e9c8f0",
+    "type": "AutoNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "关联订单",
+    "alias": "biz_rel_40023",
+    "id": "6a43dd5cfa7525f9b4e9c8f1",
+    "type": "Relation",
+    "dataSource": "6a43dd56bb587f9eb97b67ed",
+    "options": []
+   },
+   {
+    "name": "生产工厂",
+    "alias": "biz_rel_30304",
+    "id": "6a43dd5cfa7525f9b4e9c8f3",
+    "type": "Relation",
+    "dataSource": "6a43dd53562676e72e2a9fb3",
+    "options": []
+   },
+   {
+    "name": "生产状态",
+    "alias": "biz_pr_status",
+    "id": "6a43dd5cfa7525f9b4e9c8f5",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "待排产",
+      "key": "27795684-a933-4381-aaa0-089a69e58467"
+     },
+     {
+      "value": "排产中",
+      "key": "0569d653-81bc-429f-8ddb-6779fbe0e081"
+     },
+     {
+      "value": "生产中",
+      "key": "5f6489ae-05a6-4448-9b8a-2e1367fa5e26"
+     },
+     {
+      "value": "已完工",
+      "key": "32f8b677-a025-45ed-9b30-a038e9241102"
+     },
+     {
+      "value": "已取消",
+      "key": "6fc99666-d3f4-40cf-b876-8203e2f7ea16"
+     }
+    ]
+   },
+   {
+    "name": "同步工厂时间",
+    "alias": "biz_pr_synctime",
+    "id": "6a43dd5cfa7525f9b4e9c8f6",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "计划开工日期",
+    "alias": "biz_pr_planstart",
+    "id": "6a43dd5cfa7525f9b4e9c8f7",
+    "type": "Date",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "计划完工日期",
+    "alias": "biz_pr_planend",
+    "id": "6a43dd5cfa7525f9b4e9c8f8",
+    "type": "Date",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "实际完工日期",
+    "alias": "biz_pr_realend",
+    "id": "6a43dd5cfa7525f9b4e9c8f9",
+    "type": "Date",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "生产进度",
+    "alias": "biz_pr_progress",
+    "id": "6a43dd5cfa7525f9b4e9c8fa",
+    "type": "Number",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "跟单员",
+    "alias": "biz_pr_owner",
+    "id": "6a43dd5cfa7525f9b4e9c8fb",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "生产备注",
+    "alias": "biz_pr_remark",
+    "id": "6a43dd5cfa7525f9b4e9c8fc",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "附件",
+    "alias": "biz_pr_attach",
+    "id": "6a43dd5cfa7525f9b4e9c8fd",
+    "type": "Attachment",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "记录ID",
+    "alias": "rowId",
+    "id": "rowid",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "拥有者",
+    "alias": "_owner",
+    "id": "ownerid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建人",
+    "alias": "_createdBy",
+    "id": "caid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建时间",
+    "alias": "_createdAt",
+    "id": "ctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改时间",
+    "alias": "_updatedAt",
+    "id": "utime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改人",
+    "alias": "_updatedBy",
+    "id": "uaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程名称",
+    "alias": "_processName",
+    "id": "wfname",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点负责人",
+    "alias": "_nodeAssignees",
+    "id": "wfcuaids",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起人",
+    "alias": "_initiatedBy",
+    "id": "wfcaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起时间",
+    "alias": "_initiatedAt",
+    "id": "wfctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点开始时间",
+    "alias": "_nodeStartedAt",
+    "id": "wfrtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "审批完成时间",
+    "alias": "_approvalCompletedAt",
+    "id": "wfcotime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "截止时间",
+    "alias": "_dueAt",
+    "id": "wfdtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "剩余时间",
+    "alias": "_remainingTime",
+    "id": "wfftime",
+    "type": "DateFormula",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程状态",
+    "alias": "_processStatus",
+    "id": "wfstatus",
+    "type": "Dropdown",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "通过",
+      "key": "pass"
+     },
+     {
+      "value": "否决",
+      "key": "refuse"
+     },
+     {
+      "value": "中止",
+      "key": "abort"
+     },
+     {
+      "value": "进行中",
+      "key": "other"
+     }
+    ]
+   }
+  ]
+ },
+ "物流单": {
+  "worksheetId": "6a43dd5d7968b2b17ba13c66",
+  "fields": [
+   {
+    "name": "物流单号",
+    "alias": "biz_l_no",
+    "id": "6a43dd5dc97c2c5da223a6ff",
+    "type": "AutoNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "关联订单",
+    "alias": "biz_rel_40023",
+    "id": "6a43dd5dc97c2c5da223a700",
+    "type": "Relation",
+    "dataSource": "6a43dd56bb587f9eb97b67ed",
+    "options": []
+   },
+   {
+    "name": "物流状态",
+    "alias": "biz_l_status",
+    "id": "6a43dd5dc97c2c5da223a702",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "待发货",
+      "key": "17f5a35d-76d6-4206-a954-8610974e111f"
+     },
+     {
+      "value": "运输中",
+      "key": "e41846ee-bb20-403a-80f9-403224e0cc8d"
+     },
+     {
+      "value": "已签收",
+      "key": "a8608e92-d161-4fc0-bcd4-6cacd365f63c"
+     },
+     {
+      "value": "异常",
+      "key": "48ed39c6-d5a2-4b4b-ac2e-1dd1582923a2"
+     }
+    ]
+   },
+   {
+    "name": "物流公司",
+    "alias": "biz_l_carrier",
+    "id": "6a43dd5dc97c2c5da223a703",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "运单号",
+    "alias": "biz_l_trackno",
+    "id": "6a43dd5dc97c2c5da223a704",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发货日期",
+    "alias": "biz_l_shipdate",
+    "id": "6a43dd5dc97c2c5da223a705",
+    "type": "Date",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "预计到达日期",
+    "alias": "biz_l_eta",
+    "id": "6a43dd5dc97c2c5da223a706",
+    "type": "Date",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "实际签收日期",
+    "alias": "biz_l_signdate",
+    "id": "6a43dd5dc97c2c5da223a707",
+    "type": "Date",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "收货人",
+    "alias": "biz_l_recv",
+    "id": "6a43dd5dc97c2c5da223a708",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "收货电话",
+    "alias": "biz_l_recvphone",
+    "id": "6a43dd5dc97c2c5da223a709",
+    "type": "PhoneNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "运费",
+    "alias": "biz_l_fee",
+    "id": "6a43dd5dc97c2c5da223a70a",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "物流专员",
+    "alias": "biz_l_owner",
+    "id": "6a43dd5dc97c2c5da223a70b",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "备注",
+    "alias": "biz_l_remark",
+    "id": "6a43dd5dc97c2c5da223a70c",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "记录ID",
+    "alias": "rowId",
+    "id": "rowid",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "拥有者",
+    "alias": "_owner",
+    "id": "ownerid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建人",
+    "alias": "_createdBy",
+    "id": "caid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建时间",
+    "alias": "_createdAt",
+    "id": "ctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改时间",
+    "alias": "_updatedAt",
+    "id": "utime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改人",
+    "alias": "_updatedBy",
+    "id": "uaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程名称",
+    "alias": "_processName",
+    "id": "wfname",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点负责人",
+    "alias": "_nodeAssignees",
+    "id": "wfcuaids",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起人",
+    "alias": "_initiatedBy",
+    "id": "wfcaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起时间",
+    "alias": "_initiatedAt",
+    "id": "wfctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点开始时间",
+    "alias": "_nodeStartedAt",
+    "id": "wfrtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "审批完成时间",
+    "alias": "_approvalCompletedAt",
+    "id": "wfcotime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "截止时间",
+    "alias": "_dueAt",
+    "id": "wfdtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "剩余时间",
+    "alias": "_remainingTime",
+    "id": "wfftime",
+    "type": "DateFormula",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程状态",
+    "alias": "_processStatus",
+    "id": "wfstatus",
+    "type": "Dropdown",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "通过",
+      "key": "pass"
+     },
+     {
+      "value": "否决",
+      "key": "refuse"
+     },
+     {
+      "value": "中止",
+      "key": "abort"
+     },
+     {
+      "value": "进行中",
+      "key": "other"
+     }
+    ]
+   }
+  ]
+ },
+ "安装单": {
+  "worksheetId": "6a43dd5eb53555e6bdc28cf0",
+  "fields": [
+   {
+    "name": "安装单号",
+    "alias": "biz_ins_no",
+    "id": "6a43dd5e7b253242fdbc6204",
+    "type": "AutoNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "关联订单",
+    "alias": "biz_rel_40023",
+    "id": "6a43dd5e7b253242fdbc6205",
+    "type": "Relation",
+    "dataSource": "6a43dd56bb587f9eb97b67ed",
+    "options": []
+   },
+   {
+    "name": "安装状态",
+    "alias": "biz_ins_status",
+    "id": "6a43dd5e7b253242fdbc6207",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "待派工",
+      "key": "69898e18-d7d8-4184-8171-4a2c7add9c90"
+     },
+     {
+      "value": "已派工",
+      "key": "33598c11-d0e3-4f24-af95-deeece5a6113"
+     },
+     {
+      "value": "安装中",
+      "key": "cc1936e7-4004-43eb-80e7-15bd21e400d2"
+     },
+     {
+      "value": "已安装",
+      "key": "a33b6f73-c93a-405b-a1f9-f0547f1e45ea"
+     },
+     {
+      "value": "已验收",
+      "key": "46b0d2e0-fe39-4ded-a8ca-de159df2eb37"
+     },
+     {
+      "value": "返工",
+      "key": "de78b340-08ca-4a4b-9be0-18808eff0b60"
+     }
+    ]
+   },
+   {
+    "name": "预约安装时间",
+    "alias": "biz_ins_booktime",
+    "id": "6a43dd5e7b253242fdbc6208",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "实际安装时间",
+    "alias": "biz_ins_realtime",
+    "id": "6a43dd5e7b253242fdbc6209",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "安装师傅",
+    "alias": "biz_ins_worker",
+    "id": "6a43dd5e7b253242fdbc620a",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "安装地址",
+    "alias": "biz_ins_addr",
+    "id": "6a43dd5e7b253242fdbc620b",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "验收结果",
+    "alias": "biz_ins_accept",
+    "id": "6a43dd5e7b253242fdbc620c",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "待验收",
+      "key": "862bdc3e-e171-45ec-b939-b0520da25631"
+     },
+     {
+      "value": "合格",
+      "key": "95670ef2-cf9c-4470-97ee-d393132aaa34"
+     },
+     {
+      "value": "不合格",
+      "key": "6adcc595-a23d-4cde-b72d-ddfcfc73fb6b"
+     }
+    ]
+   },
+   {
+    "name": "客户签字",
+    "alias": "biz_ins_sign",
+    "id": "6a43dd5e7b253242fdbc620d",
+    "type": "Attachment",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "安装照片",
+    "alias": "biz_ins_photo",
+    "id": "6a43dd5e7b253242fdbc620e",
+    "type": "Attachment",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "客户评分",
+    "alias": "biz_ins_rate",
+    "id": "6a43dd5e7b253242fdbc620f",
+    "type": "Rating",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "备注",
+    "alias": "biz_ins_remark",
+    "id": "6a43dd5e7b253242fdbc6210",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "记录ID",
+    "alias": "rowId",
+    "id": "rowid",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "拥有者",
+    "alias": "_owner",
+    "id": "ownerid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建人",
+    "alias": "_createdBy",
+    "id": "caid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建时间",
+    "alias": "_createdAt",
+    "id": "ctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改时间",
+    "alias": "_updatedAt",
+    "id": "utime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改人",
+    "alias": "_updatedBy",
+    "id": "uaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程名称",
+    "alias": "_processName",
+    "id": "wfname",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点负责人",
+    "alias": "_nodeAssignees",
+    "id": "wfcuaids",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起人",
+    "alias": "_initiatedBy",
+    "id": "wfcaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起时间",
+    "alias": "_initiatedAt",
+    "id": "wfctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点开始时间",
+    "alias": "_nodeStartedAt",
+    "id": "wfrtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "审批完成时间",
+    "alias": "_approvalCompletedAt",
+    "id": "wfcotime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "截止时间",
+    "alias": "_dueAt",
+    "id": "wfdtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "剩余时间",
+    "alias": "_remainingTime",
+    "id": "wfftime",
+    "type": "DateFormula",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程状态",
+    "alias": "_processStatus",
+    "id": "wfstatus",
+    "type": "Dropdown",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "通过",
+      "key": "pass"
+     },
+     {
+      "value": "否决",
+      "key": "refuse"
+     },
+     {
+      "value": "中止",
+      "key": "abort"
+     },
+     {
+      "value": "进行中",
+      "key": "other"
+     }
+    ]
+   }
+  ]
+ },
+ "售后工单": {
+  "worksheetId": "6a43dd5ed928e7cf1bce815a",
+  "fields": [
+   {
+    "name": "工单编号",
+    "alias": "biz_as_no",
+    "id": "6a43dd5fdd094e0b9289fbd1",
+    "type": "AutoNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "关联订单",
+    "alias": "biz_rel_40023",
+    "id": "6a43dd5fdd094e0b9289fbd2",
+    "type": "Relation",
+    "dataSource": "6a43dd56bb587f9eb97b67ed",
+    "options": []
+   },
+   {
+    "name": "关联经销商",
+    "alias": "biz_rel_74059",
+    "id": "6a43dd5fdd094e0b9289fbd4",
+    "type": "Relation",
+    "dataSource": "6a43dd4eb53555e6bdc28ca1",
+    "options": []
+   },
+   {
+    "name": "工单状态",
+    "alias": "biz_as_status",
+    "id": "6a43dd5fdd094e0b9289fbd6",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "待受理",
+      "key": "eb03ec00-c77c-49fe-ba9f-b458625c14c1"
+     },
+     {
+      "value": "处理中",
+      "key": "55413d3f-5b18-40a7-80e6-a7fb0f5d52a6"
+     },
+     {
+      "value": "待回访",
+      "key": "e5c654f6-104d-4ed2-b120-0862b911a28e"
+     },
+     {
+      "value": "已关闭",
+      "key": "f96b3203-b3f7-4a8b-a3c7-064897533df3"
+     },
+     {
+      "value": "已升级",
+      "key": "99634cdd-e02c-4b22-9960-2e5352d60e34"
+     }
+    ]
+   },
+   {
+    "name": "问题类型",
+    "alias": "biz_as_type",
+    "id": "6a43dd5fdd094e0b9289fbd7",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "质量问题",
+      "key": "0df37227-47cd-4ac6-affa-6317436283ae"
+     },
+     {
+      "value": "物流破损",
+      "key": "b27153aa-894b-48b5-8ba7-0d3ae47dd888"
+     },
+     {
+      "value": "安装问题",
+      "key": "ed48a97c-b7d3-4d25-af91-0e8f799bab5b"
+     },
+     {
+      "value": "缺件少件",
+      "key": "7efe86af-cc69-4277-aeb8-fc31c99107a1"
+     },
+     {
+      "value": "其他",
+      "key": "24a53786-4bb5-4b04-ad5c-39204927ef66"
+     }
+    ]
+   },
+   {
+    "name": "紧急程度",
+    "alias": "biz_as_urgency",
+    "id": "6a43dd5fdd094e0b9289fbd8",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "低",
+      "key": "1b4fc397-a005-4774-be22-aaba639d5482"
+     },
+     {
+      "value": "中",
+      "key": "de7a84bc-a870-4de1-8ac2-45335530dda8"
+     },
+     {
+      "value": "高",
+      "key": "1369fb20-0f56-4953-9b71-e6c7977cdd68"
+     },
+     {
+      "value": "紧急",
+      "key": "dcf4124a-7562-4e57-8870-e5ad7eaeceae"
+     }
+    ]
+   },
+   {
+    "name": "问题描述",
+    "alias": "biz_as_desc",
+    "id": "6a43dd5fdd094e0b9289fbd9",
+    "type": "RichText",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "期望解决时间",
+    "alias": "biz_as_expect",
+    "id": "6a43dd5fdd094e0b9289fbda",
+    "type": "Date",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "受理人",
+    "alias": "biz_as_owner",
+    "id": "6a43dd5fdd094e0b9289fbdb",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "处理方案",
+    "alias": "biz_as_plan",
+    "id": "6a43dd5fdd094e0b9289fbdc",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "处理结果",
+    "alias": "biz_as_result",
+    "id": "6a43dd5fdd094e0b9289fbdd",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "已解决",
+      "key": "5dbff984-c0d6-4cd3-9acd-ea9c6d8d1eba"
+     },
+     {
+      "value": "部分解决",
+      "key": "c968aade-d909-4e31-9bc8-50b1bdb7a2e6"
+     },
+     {
+      "value": "无法解决",
+      "key": "917ccc8f-d0ab-45d5-8619-6928a92a8415"
+     }
+    ]
+   },
+   {
+    "name": "回访满意度",
+    "alias": "biz_as_rate",
+    "id": "6a43dd5fdd094e0b9289fbde",
+    "type": "Rating",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "问题图片",
+    "alias": "biz_as_img",
+    "id": "6a43dd5fdd094e0b9289fbdf",
+    "type": "Attachment",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "备注",
+    "alias": "biz_as_remark",
+    "id": "6a43dd5fdd094e0b9289fbe0",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "记录ID",
+    "alias": "rowId",
+    "id": "rowid",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "拥有者",
+    "alias": "_owner",
+    "id": "ownerid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建人",
+    "alias": "_createdBy",
+    "id": "caid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建时间",
+    "alias": "_createdAt",
+    "id": "ctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改时间",
+    "alias": "_updatedAt",
+    "id": "utime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改人",
+    "alias": "_updatedBy",
+    "id": "uaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程名称",
+    "alias": "_processName",
+    "id": "wfname",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点负责人",
+    "alias": "_nodeAssignees",
+    "id": "wfcuaids",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起人",
+    "alias": "_initiatedBy",
+    "id": "wfcaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起时间",
+    "alias": "_initiatedAt",
+    "id": "wfctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点开始时间",
+    "alias": "_nodeStartedAt",
+    "id": "wfrtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "审批完成时间",
+    "alias": "_approvalCompletedAt",
+    "id": "wfcotime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "截止时间",
+    "alias": "_dueAt",
+    "id": "wfdtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "剩余时间",
+    "alias": "_remainingTime",
+    "id": "wfftime",
+    "type": "DateFormula",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程状态",
+    "alias": "_processStatus",
+    "id": "wfstatus",
+    "type": "Dropdown",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "通过",
+      "key": "pass"
+     },
+     {
+      "value": "否决",
+      "key": "refuse"
+     },
+     {
+      "value": "中止",
+      "key": "abort"
+     },
+     {
+      "value": "进行中",
+      "key": "other"
+     }
+    ]
+   }
+  ]
+ },
+ "收款计划": {
+  "worksheetId": "6a43dd5f7f7f1704c4032c2e",
+  "fields": [
+   {
+    "name": "计划编号",
+    "alias": "biz_pp_no",
+    "id": "6a43dd5fc97c2c5da223a740",
+    "type": "AutoNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "关联订单",
+    "alias": "biz_rel_40023",
+    "id": "6a43dd5fc97c2c5da223a741",
+    "type": "Relation",
+    "dataSource": "6a43dd56bb587f9eb97b67ed",
+    "options": []
+   },
+   {
+    "name": "收款节点",
+    "alias": "biz_pp_node",
+    "id": "6a43dd5fc97c2c5da223a743",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "定金",
+      "key": "3027d467-8013-4152-827e-abab005be990"
+     },
+     {
+      "value": "进度款一",
+      "key": "f0f0dfd8-4665-4733-80ae-c67b3234d8ae"
+     },
+     {
+      "value": "进度款二",
+      "key": "21220c9f-7e92-45ba-bfd5-649caa223b83"
+     },
+     {
+      "value": "尾款",
+      "key": "376369f9-68a4-4397-b46f-5e11b1616a06"
+     }
+    ]
+   },
+   {
+    "name": "应收金额",
+    "alias": "biz_pp_amount",
+    "id": "6a43dd5fc97c2c5da223a744",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "已收金额",
+    "alias": "biz_pp_paid",
+    "id": "6a43dd5fc97c2c5da223a745",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "未收金额",
+    "alias": "biz_pp_unpaid",
+    "id": "6a43dd5fc97c2c5da223a746",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "应收日期",
+    "alias": "biz_pp_duedate",
+    "id": "6a43dd5fc97c2c5da223a747",
+    "type": "Date",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "收款状态",
+    "alias": "biz_pp_status",
+    "id": "6a43dd5fc97c2c5da223a748",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "待收款",
+      "key": "b9bfdc0b-b8c8-4cb5-91e7-7084e220d74b"
+     },
+     {
+      "value": "部分收款",
+      "key": "f328757c-2fc1-43d3-af70-a38b94b6371a"
+     },
+     {
+      "value": "已结清",
+      "key": "2492ebfe-786e-4f68-82e8-06c92da64970"
+     },
+     {
+      "value": "已逾期",
+      "key": "f0dba54e-f563-4d6f-b5d3-654492ea798e"
+     }
+    ]
+   },
+   {
+    "name": "实际结清日期",
+    "alias": "biz_pp_cleardate",
+    "id": "6a43dd5fc97c2c5da223a749",
+    "type": "Date",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "备注",
+    "alias": "biz_pp_remark",
+    "id": "6a43dd5fc97c2c5da223a74a",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "收款记录",
+    "alias": "",
+    "id": "6a43dd62fa7525f9b4e9c93d",
+    "type": "Relation",
+    "dataSource": "6a43dd62dd094e0b9289fc15",
+    "options": []
+   },
+   {
+    "name": "记录ID",
+    "alias": "rowId",
+    "id": "rowid",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "拥有者",
+    "alias": "_owner",
+    "id": "ownerid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建人",
+    "alias": "_createdBy",
+    "id": "caid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建时间",
+    "alias": "_createdAt",
+    "id": "ctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改时间",
+    "alias": "_updatedAt",
+    "id": "utime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改人",
+    "alias": "_updatedBy",
+    "id": "uaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程名称",
+    "alias": "_processName",
+    "id": "wfname",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点负责人",
+    "alias": "_nodeAssignees",
+    "id": "wfcuaids",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起人",
+    "alias": "_initiatedBy",
+    "id": "wfcaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起时间",
+    "alias": "_initiatedAt",
+    "id": "wfctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点开始时间",
+    "alias": "_nodeStartedAt",
+    "id": "wfrtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "审批完成时间",
+    "alias": "_approvalCompletedAt",
+    "id": "wfcotime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "截止时间",
+    "alias": "_dueAt",
+    "id": "wfdtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "剩余时间",
+    "alias": "_remainingTime",
+    "id": "wfftime",
+    "type": "DateFormula",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程状态",
+    "alias": "_processStatus",
+    "id": "wfstatus",
+    "type": "Dropdown",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "通过",
+      "key": "pass"
+     },
+     {
+      "value": "否决",
+      "key": "refuse"
+     },
+     {
+      "value": "中止",
+      "key": "abort"
+     },
+     {
+      "value": "进行中",
+      "key": "other"
+     }
+    ]
+   }
+  ]
+ },
+ "收款记录": {
+  "worksheetId": "6a43dd62dd094e0b9289fc15",
+  "fields": [
+   {
+    "name": "收款单号",
+    "alias": "biz_pa_no",
+    "id": "6a43dd62fa7525f9b4e9c93b",
+    "type": "AutoNumber",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "关联收款计划",
+    "alias": "biz_rel_33235",
+    "id": "6a43dd62fa7525f9b4e9c93c",
+    "type": "Relation",
+    "dataSource": "6a43dd5f7f7f1704c4032c2e",
+    "options": []
+   },
+   {
+    "name": "关联订单",
+    "alias": "biz_rel_40023",
+    "id": "6a43dd62fa7525f9b4e9c93e",
+    "type": "Relation",
+    "dataSource": "6a43dd56bb587f9eb97b67ed",
+    "options": []
+   },
+   {
+    "name": "收款金额",
+    "alias": "biz_pa_amount",
+    "id": "6a43dd62fa7525f9b4e9c940",
+    "type": "Currency",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "收款方式",
+    "alias": "biz_pa_method",
+    "id": "6a43dd62fa7525f9b4e9c941",
+    "type": "SingleSelect",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "银行转账",
+      "key": "fcd793e8-af5f-4a1c-8819-a388440bb201"
+     },
+     {
+      "value": "微信",
+      "key": "ad1f68b7-6920-4392-aaac-7b4ebd6f6f93"
+     },
+     {
+      "value": "支付宝",
+      "key": "ad19b8b3-cc5b-4cbe-a080-7de12dbd20db"
+     },
+     {
+      "value": "现金",
+      "key": "3d56ddb9-07e4-4248-abca-834906c8443a"
+     },
+     {
+      "value": "承兑汇票",
+      "key": "59d0d759-360d-4aca-89b3-e1aff804243e"
+     }
+    ]
+   },
+   {
+    "name": "收款日期",
+    "alias": "biz_pa_date",
+    "id": "6a43dd62fa7525f9b4e9c942",
+    "type": "Date",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "收款人",
+    "alias": "biz_pa_owner",
+    "id": "6a43dd62fa7525f9b4e9c943",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "收款凭证",
+    "alias": "biz_pa_proof",
+    "id": "6a43dd62fa7525f9b4e9c944",
+    "type": "Attachment",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "备注",
+    "alias": "biz_pa_remark",
+    "id": "6a43dd62fa7525f9b4e9c945",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "记录ID",
+    "alias": "rowId",
+    "id": "rowid",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "拥有者",
+    "alias": "_owner",
+    "id": "ownerid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建人",
+    "alias": "_createdBy",
+    "id": "caid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "创建时间",
+    "alias": "_createdAt",
+    "id": "ctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改时间",
+    "alias": "_updatedAt",
+    "id": "utime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "最近修改人",
+    "alias": "_updatedBy",
+    "id": "uaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程名称",
+    "alias": "_processName",
+    "id": "wfname",
+    "type": "Text",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点负责人",
+    "alias": "_nodeAssignees",
+    "id": "wfcuaids",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起人",
+    "alias": "_initiatedBy",
+    "id": "wfcaid",
+    "type": "Collaborator",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "发起时间",
+    "alias": "_initiatedAt",
+    "id": "wfctime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "节点开始时间",
+    "alias": "_nodeStartedAt",
+    "id": "wfrtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "审批完成时间",
+    "alias": "_approvalCompletedAt",
+    "id": "wfcotime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "截止时间",
+    "alias": "_dueAt",
+    "id": "wfdtime",
+    "type": "DateTime",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "剩余时间",
+    "alias": "_remainingTime",
+    "id": "wfftime",
+    "type": "DateFormula",
+    "dataSource": "",
+    "options": []
+   },
+   {
+    "name": "流程状态",
+    "alias": "_processStatus",
+    "id": "wfstatus",
+    "type": "Dropdown",
+    "dataSource": "",
+    "options": [
+     {
+      "value": "通过",
+      "key": "pass"
+     },
+     {
+      "value": "否决",
+      "key": "refuse"
+     },
+     {
+      "value": "中止",
+      "key": "abort"
+     },
+     {
+      "value": "进行中",
+      "key": "other"
+     }
+    ]
+   }
+  ]
+ }
+}

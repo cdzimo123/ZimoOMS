@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "hap-mcp-ZimoOMS": {
+      "url": "https://api.mingdao.com/mcp?HAP-Appkey=b28e57130fb4572d&HAP-Sign=NzNjMDBjOWQ2NTYxMzQzMWMyMzk3YmM1N2QxYzM5MGE0Nzk2YzU1MmQ5OTE0MGY5ODJlZGEzZmRlOGFhOGI5OA=="
+    }
+  }
+}
